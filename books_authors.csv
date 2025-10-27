@@ -1,5 +1,5 @@
-b_id,au_id
-bi,au1
+book_id,author_id
+b1,au1
 b2,au1
 b3,au2
 b4,au3
