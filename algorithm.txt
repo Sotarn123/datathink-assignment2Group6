@@ -1,0 +1,60 @@
+// Read CSV files containing book and author data
+    Read BooksData from books.csv
+    Read AuthorsData from authors.csv
+    Read BookAuthorsData from book_authors.csv
+
+// Create empty dictionaries for counting
+    Create empty dictionary AuthorDistribution
+    Create empty dictionary GenderDistribution
+
+// Count books per author within the specified time period
+    For each book_id in BooksData:
+        IF BooksData[book_id].year >= start_year AND BooksData[book_id].year <= end_year THEN
+            For each author_id linked to book_id in BookAuthorsData:
+                IF author_id exists in AuthorDistribution THEN
+                    Increment AuthorDistribution[author_id] by 1
+                ELSE
+                    Set AuthorDistribution[author_id] = 1
+                END IF
+            END FOR
+        END IF
+    END FOR
+
+// Count books per gender within the specified time period
+    For each book_id in BooksData:
+        IF BooksData[book_id].year >= start_year AND BooksData[book_id].year <= end_year THEN
+            For each author_id linked to book_id in BookAuthorsData:
+                IF author_id exists in AuthorsData THEN
+                    author_gender = AuthorsData[author_id].gender
+                    IF author_gender exists in GenderDistribution THEN
+                        Increment GenderDistribution[author_gender] by 1
+                    ELSE
+                        Set GenderDistribution[author_gender] = 1
+                    END IF
+                END IF
+            END FOR
+        END IF
+    END FOR
+
+// Create AuthorResults list with author names and book counts
+    Create empty list AuthorResults
+    For each author_id in AuthorDistribution:
+        IF author_id exists in AuthorsData THEN
+            author_name = AuthorsData[author_id].name
+            Add (author_name, AuthorDistribution[author_id]) to AuthorResults
+        END IF
+    END FOR
+
+// Create GenderResults list with genders and book counts
+    Create empty list GenderResults
+    For each author_gender in GenderDistribution:
+        Add (author_gender, GenderDistribution[author_gender]) to GenderResults
+    END FOR
+
+// Sort both result lists
+    Sort AuthorResults by number_of_books descending, then author_name ascending
+    Sort GenderResults by number_of_books descending
+
+// Return both results lists
+    Return AuthorResults as list of (author_name, number_of_books)
+    Return GenderResults as list of (author_gender, number_of_books)
