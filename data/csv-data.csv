@@ -1,2 +1,59 @@
-SAMPLE,DATA
-sample,data
+au_id,title,subtitle,year
+b1,"Drottningens Juvelsmycke","",2000
+b2,"Det går an","",2011
+b3,Famillen H***,"",2000
+b4,"En dåres försvarstal","",1999
+b5,"Hemsöborna","Skärgårds-berättelse",2012
+b6,"Myten om Wu Tao-tsu","",2002
+b7,"Amorina eller Historien om de fyra","",2000
+b8,"Grannarne","",2000
+b9,"Herta, Eller En själs historia","Teckning ur det verkliga lifvet",2016
+b10,"Gösta Berglings saga","Förra delen",2013
+b11,"Amorina","Den Förrykta Frökens Lefnadslopp och Sällsynta Bedrifter",2002
+b12,"Legender","",2001
+b13,"Pennskaftet","",2003
+b14,"Götiska rummen","Släkt-öden från sekelslutet",2001
+b15,"Gösta Berlings saga","Senare delen",2013
+b16,"Det hemliga namnet","",1999
+b17,"Smaragdbruden","Följderna af ett rikt nordiskt arf",2001
+b18,"Emma och Gloria och de Levande Varslarna","",2006
+b19,"Illusionerna","",2000
+b20,"The Queen's Tiara or Azouras Lazuli Tinomara","A tale of events immidiately before, during and after the assassination of King Gustaf III of Sweden",2001
+b21,"Pål Värning","En skärgårds-ynglings äfventyr",2000
+b22,"En Skälmroman","Döda fallet",2001
+b23,"Anders Sparrmans resa","En biografisk roman",2008
+b24,"Das Geschmeide der Königin","",2005
+b25,"Syster och bror","En af Stockholms hemligheter",1999
+b26,"Ett köpmanshus i skärgården","Förra delen",2007
+b27,"Körkarlen","Berättelse",2012
+b28,"Emma och Gloria med lust och fägring stor","",2011
+b29,"Ansa och samvetet","",2004
+b30,"Emma och Gloria och den röda längtansboken","",2008
+b31,"Murnis","",2018
+b32,"En dagbok","",2009
+b33,"Ett köpmanshus i skärgården","Del 2",2007
+b34,"Min pennas saga","",2007
+b35,"Ett köpmanshus i skärgården","Del 3",2007
+b36,"Gabrièle Mimanso","",2012
+b37,"En Swensk Adelsmans Äfventyr","",2001
+b38,"Sigrid Liljeholm","Roman",2007
+b39,"Det går an","",2005
+b40,"Min son på galejan","Eller En Ostindisk Resa",1999
+b41,"En privatmans vedermödor","",2000
+b42,"Judas","En passionshistoria",2002
+b43,"Rondo","",2000
+b44,"Christinalegender","",2000
+b45,"Tre fruar i Småland","",1998
+b46,"Fackeltåget","",1998
+b47,"Spader Dame","och novellen samvetets fantasi",1997
+b48,"Herrarne på Ekolsund","Del 1 och 2",1997
+b49,"Herrarne på Ekolsund","Del 3",1997
+b50,"En man och hans samvete","",1997
+b51,"Svarta fanor","Sedeskildringar från sekelskiftet",1995
+b52,"Han och hon","En själs utvecklingshistoria",1996
+b53,"Amalia Hillner","",1995
+b54,"Korståget","",1995
+b55,"Hans Alienus","",1995
+b56,"En döds memorarer","",1995
+b57,"Stensborg","",1995
+b58,"Den starkare","",1995
